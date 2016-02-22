@@ -31,7 +31,7 @@
   <application-components>
     <!-- Add your application components here -->
     <component>
-      <implementation-class>LeeComponent</implementation-class>
+      <implementation-class>maniac.lee.easycoder.LeeComponent</implementation-class>
     </component>
   </application-components>
 
@@ -41,7 +41,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="LeeAction" class="LeeAction" text="LeeAction">
+    <action id="LeeAction" class="maniac.lee.easycoder.LeeAction" text="LeeAction">
       <add-to-group group-id="WindowMenu" anchor="first"/>
     </action>
   </actions>
