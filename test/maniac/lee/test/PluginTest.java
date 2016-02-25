@@ -13,6 +13,8 @@ public class PluginTest extends LightCodeInsightFixtureTestCase{
             @Override
             protected void run() throws Throwable {
                 System.out.println(getApplication());
+                System.out.println(getProject().getProjectFile());
+                System.out.println(getProject().getWorkspaceFile());
 //                CodeStyleManager.getInstance(getProject()).reformat(myFixture.getFile());
             }
         }.execute();
