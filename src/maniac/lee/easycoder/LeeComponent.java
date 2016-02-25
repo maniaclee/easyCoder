@@ -25,18 +25,11 @@ public class LeeComponent implements ApplicationComponent {
     }
 
     public void sayHello() {
-
         // Show dialog with message
-
         Messages.showMessageDialog(
-
                 "Hello World!",
-
                 "Sample",
-
                 Messages.getInformationIcon()
-
         );
-
     }
 }
